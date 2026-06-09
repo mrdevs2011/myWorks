@@ -1,0 +1,411 @@
+@import url(./colors.css);
+@import url(./tip.css);
+
+html {
+    scroll-behavior: smooth;
+
+    margin: 0px;
+}
+
+body {
+    background-color: #1f2125;
+    font-family: Arial;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    height: 45px;
+    background-color: #2b2d33;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.header-nav {
+    position: relative;
+
+    top: -40px;
+    left: 50%;
+}
+
+.link-header {
+    display: inline;
+
+    padding: 0px 10px 0px 10px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.link-header:hover {
+    border-bottom: 2px solid skyblue;
+}
+
+.header-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container-header {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.devs {
+    margin-top: 7px;
+}
+
+.devs a {
+    color: #ffffff;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-top: 7px;
+    text-decoration: none;
+}
+
+.heading {
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+
+    font-size: 30px;
+
+    padding-top: 30px;
+
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.heading-subtext {
+    background-color: #35373d;
+
+    padding: 10px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+
+    border-left: 4px solid skyblue;
+
+    margin-bottom: 0px;
+
+    border-top-right-radius: 30px;
+}
+
+.image {
+    position: relative;
+    margin-bottom: 5450px;
+}
+
+.help-image {
+    width: 99.5%;
+    border-left: 4px solid skyblue;
+}
+
+.help-show {
+    width: 99.5%;
+    margin: 0px 0px 20px;
+    border-left: 4px solid skyblue;
+    border-bottom-right-radius: 30px;
+}
+
+.link-github {
+    background-color: #1f2125;
+
+    padding: 3px;
+
+    margin-left: 10px;
+
+    border-radius: 5px;
+    font-style: oblique;
+    color: #d6f4ff;
+}
+
+.list-name {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+    border-bottom: 2px solid skyblue;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 20px;
+    z-index: 20;
+}
+
+.list-subname {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0 20px;
+    font-weight: 500;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+.list-box {
+    margin: 20px 0 20px;
+    background-color: #272a2e;
+    padding: 20px 0;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-left: 4px solid skyblue;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content {
+    padding-top: 10px;
+}
+
+.content-left {
+    display: inline;
+    padding: 0px 0px 3px;
+    text-align: left;
+    color: rgba(255, 218, 143, 0.946);
+}
+
+.content-right {
+    display: inline;
+    padding-left: 30px;
+    float: right;
+    font-weight: 400;
+    padding-right: 30px;
+}
+
+.name {
+    color: skyblue;
+}
+
+.value {
+    color: pink;
+    padding-left: 3px;
+}
+
+.white-1 {
+    padding-left: 2px;
+    color: #ffffff;
+}
+
+.white-2 {
+    color: #ffffff;
+    padding-left: 2px;
+}
+
+.footer {
+    position: relative;
+    width: 96%;
+    height: 100px;
+    background-color: #282b2f;
+    margin: 50px 0 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.footer-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-nav ul li {
+    padding: 10px 32px;
+}
+
+.footer-text {
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+@keyframes go {
+    0% {
+        font-size: 10px;
+    }
+
+    50% {
+        font-size: 100px;
+    }
+}
+
+@keyframes y {
+    0% {
+        top: 0;
+        opacity: 0.5;
+        background-color: transparent;
+    }
+
+    50% {
+        top: 60px;
+        background-color: transparent;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0;
+        background-color: transparent;
+        opacity: 0.5;
+    }
+}
+
+@keyframes start {
+    0% {
+        rotate: 0deg;
+    }
+
+    40% {
+        rotate: 45deg;
+    }
+
+    60% {
+        rotate: -45deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+.go {
+    position: relative;
+    left: 30%;
+    color: #ffffff;
+    margin: 30px;
+    animation: go 3s ease infinite;
+}
+
+.ready {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-bottom: 3px solid white;
+}
+
+.lets {
+    position: absolute;
+    left: 13.8%;
+    font-size: 50px;
+    border-bottom: 3px solid skyblue;
+}
+
+.lets-go {
+    position: absolute;
+    top: -29px;
+    font-size: 60px;
+    color: skyblue;
+    background-color: #1f2125;
+    padding: -10px;
+    border-radius: 50px;
+}
+
+.ready-text {
+    color: pink;
+}
+
+.y {
+    position: absolute;
+    left: 235px;
+    float: right;
+    z-index: 1;
+    background-color: #1f2125;
+    border-radius: 50%;
+    color: rgb(255, 240, 243);
+    animation: y 3s ease infinite;
+}
+
+.undo {
+    position: absolute;
+    top: -30px;
+    left: 75px;
+    color: #d6f4ff;
+    font-size: 75px;
+    background-color: #1f2125;
+    border-radius: 50%;
+    padding: -10px;
+}
+
+.start {
+    margin-top: 100px;
+    animation: start 3s ease infinite;
+}
+
+@media screen and (max-width: 960px) {
+    .footer-nav ul li {
+        padding: 10px 1.5%;
+    }
+
+    .footer {
+        width: 72.2%;
+    }
+
+    .container-header {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .devs a {
+        margin-left: 15px;
+    }
+
+    .header-nav {
+        position: relative;
+
+        top: -40px;
+        left: 16%;
+    }
+
+    .header-nav ul li {
+        margin-left: -10px;
+    }
+
+    .footer-text {
+        left: 30%;
+    }
+
+    .list-box {
+        width: 70%;
+        margin-left: 20px;
+    }
+
+    .list-name {
+        width: 70%;
+        margin-left: 10px;
+    }
+
+    .list-subname {
+        width: 75%;
+    }
+
+    .heading {
+        width: 75%;
+    }
+
+    .heading-subtext {
+        width: 74%;
+    }
+
+    .help-image {
+        width: 76%;
+    }
+
+    .help-show {
+        width: 76%;
+    }
+
+}

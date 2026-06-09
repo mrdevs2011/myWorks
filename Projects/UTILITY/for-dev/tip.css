@@ -1,0 +1,68 @@
+.tip {
+    position: absolute;
+    top: 1500px;
+    width: 1000px;
+    background-color: #313337;
+    border: 3px solid rgb(255, 225, 0);
+    border-radius: 50px;
+}
+
+.tip-text {
+    position: relative;
+    top: -100px;
+    left: 46%;
+    font-size: 30px;
+    color: rgb(255, 225, 0);
+    font-weight: 700;
+}
+
+.content-name {
+    color: skyblue;
+    text-align: center;
+    font-size: 18px;
+    margin: -20px 0px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 10px 0px 10px;
+}
+
+.content-subname {
+    color: rgb(234, 234, 234);
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+
+.tip .content {
+    color: rgb(66, 246, 255);
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 10px 0px 5px 0px;
+}
+
+.equal {
+    color: rgb(89, 255, 0);
+}
+
+.tip-code {
+    color: white;
+}
+
+.tip .content .name {
+    font-size: 16px;
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+}
+
+.tip-code-helper {
+    background-color: black;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: pink;
+}

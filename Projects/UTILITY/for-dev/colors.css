@@ -1,0 +1,2639 @@
+.c-important {
+    border-bottom: 2px solid skyblue;
+}
+
+.bg-important {
+    border-bottom: 2px solid skyblue;
+}
+
+.aliceblue {
+
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: aliceblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+
+    border-radius: 3px;
+}
+
+.antiquewhite {
+
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: aliceblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.aqua {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: aqua;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.aquamarine {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: aquamarine;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.azure {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: azure;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.beige {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: beige;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.bisque {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: bisque;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.black {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: black;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.blanchedalmond {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: blanchedalmond;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.blue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: blue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.blueviolet {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: blueviolet;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.brrown {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: brown;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.burlywood {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: burlywood;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.chocolate {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: chocolate;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.cadetblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: cadetblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.chartreuse {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: chartreuse;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.coral {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: coral;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.cornflowerblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: cornflowerblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.cornsilk {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: cornsilk;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.crimson {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: crimson;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.cyan {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: cyan;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkcyan {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkcyan;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkgoldenrod {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkgoldenrod;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkgray {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkgray;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkgreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkgreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkgrey {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkgrey;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkkhaki {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkkhaki;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkmagenta {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkmagenta;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkolivegreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkolivegreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkorange {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkorange;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkorchid {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkorchid;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkred {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkred;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darksalmon {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darksalmon;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkseagreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkseagreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkseagreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkseagreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkslateblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkslateblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkslategray {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkslategray;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkslategrey {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkslategrey;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkturquoise {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkseagreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.darkviolet {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: darkviolet;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.deeppink {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: deeppink;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.deepskyblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: deepskyblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.dimgray {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: dimgray;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.dimgrey {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: dimgrey;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.dodgerblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: dodgerblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.firebrick {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: firebrick;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.floralwhite {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: floralwhite;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.forestgreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: forestgreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.fuchsia {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: fuchsia;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.gainsboro {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: gainsboro;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.ghostwhite {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: ghostwhite;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.gold {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: gold;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.goldenrod {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: goldenrod;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.gray {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: gray;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.honeydew {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: honeydew;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.hotpink {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: hotpink;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.indianred {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: indianred;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.indigo {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: indigo;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.ivory {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: ivory;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.khaki {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: khaki;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lavender {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lavender;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lavenderblush {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lavender;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lawngreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lawngreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lemonchiffon {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lemonchiffon;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightcoral {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightcoral;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightcyan {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightcyan;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightgoldenrodyellow {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightgoldenrodyellow;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightgray {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightgray;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightgreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightgreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightgrey {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightgrey;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightpink {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightpink;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightsalmon {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightsalmon;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightseagreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightseagreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightskyblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightskyblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightslategray {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightslategray;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightslategrey {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightslategrey;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightsteelblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightsteelblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lightyellow {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lightyellow;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.lime {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: lime;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.limegreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: limegreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.linen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: linen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.magenta {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: magenta;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.maroon {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: maroon;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mediumaquamarine {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mediumaquamarine;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mediumblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mediumblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mediumorchid {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mediumorchid;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mediumpurple {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mediumpurple;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mediumseagreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mediumseagreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mediumturquoise {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mediumturquoise;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mediumvioletred {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mediumvioletred;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.midnightblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: midnightblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mintcream {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mintcream;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.mistyrose {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: mistyrose;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.moccasin {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: moccasin;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.navajowhite {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: navajowhite;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.navy {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: navy;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.oldlace {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: oldlace;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.olive {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: olive;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.olivedrab {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: olivedrab;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.orange {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: orange;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.orangered {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: orangered;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.orchid {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: orchid;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.palegoldenrod {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: palegoldenrod;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.palegreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: palegreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.paleturquoise {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: paleturquoise;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.palevioletred {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: palevioletred;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.papayawhip {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: papayawhip;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.peachpuff {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: peachpuff;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.peru {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: peru;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.pink {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: pink;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.plum {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: plum;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.powderblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: powderblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.purple {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: purple;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.rebeccapurple {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: rebeccapurple;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.red {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: red;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.rosybrown {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: rosybrown;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.royalblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: royalblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.saddlebrown {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: saddlebrown;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.salmon {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: salmon;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.sandybrown {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: sandybrown;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.seagreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: seagreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.seashell {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: seashell;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.sienna {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: sienna;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.silver {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: silver;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.skyblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: skyblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.slateblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: slateblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.slategray {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: slategray;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.slategrey {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: slategrey;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.snow {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: snow;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.springgreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: springgreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.slateblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: slateblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.steelblue {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: slateblue;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.tan {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: tan;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.teal {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: teal;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.thistle {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: thistle;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.tomato {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: tomato;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.turquoise {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: turquoise;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.violet {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: violet;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.wheat {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: wheat;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.white {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: white;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.whitesmoke {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: whitesmoke;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.yellow {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: yellow;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}
+
+.yellowgreen {
+    margin-left: 5px;
+
+    margin-top: 6px;
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: yellowgreen;
+
+    float: right;
+
+    border: 2px solid white;
+
+    border-radius: 3px;
+}

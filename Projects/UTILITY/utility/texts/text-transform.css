@@ -1,0 +1,15 @@
+.ttc {
+    text-transform: capitalize;
+}
+
+.ttl {
+    text-transform: lowercase;
+}
+
+.ttn {
+    text-transform: none;
+}
+
+.ttu {
+    text-transform: uppercase;
+}

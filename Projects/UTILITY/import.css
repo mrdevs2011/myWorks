@@ -1,0 +1,40 @@
+@import url(./utility/fonts/font-family.css);
+@import url(./utility/fonts/font-size.css);
+@import url(./utility/fonts/font-style.css);
+@import url(./utility/fonts/font-weight.css);
+
+@import url(./utility/texts/text-colors.css);
+@import url(./utility/texts/text-decoration.css);
+@import url(./utility/texts/text-transform.css);
+@import url(./utility/texts/text-align.css);
+
+@import url(./utility/padding/general-padding.css);
+@import url(./utility/padding/padding-bottom.css);
+@import url(./utility/padding/padding-left.css);
+@import url(./utility/padding/padding-right.css);
+@import url(./utility/padding/padding-top.css);
+
+@import url(./utility/margin/general-margin.css);
+@import url(./utility/margin/margin-bottom.css);
+@import url(./utility/margin/margin-left.css);
+@import url(./utility/margin/margin-right.css);
+@import url(./utility/margin/margin-top.css);
+
+@import url(./utility/border/general/general-border-sb.css);
+@import url(./utility/border/general/general-border-sw.css);
+@import url(./utility/border/top/border-top-sb.css);
+@import url(./utility/border/top/border-top-sw.css);
+@import url(./utility/border/right/border-right-sb.css);
+@import url(./utility/border/right/border-right-sw.css);
+@import url(./utility/border/bottom/border-bottom-sb.css);
+@import url(./utility/border/bottom/border-bottom-sw.css);
+@import url(./utility/border/left/border-left-sb.css);
+@import url(./utility/border/left/border-left-sw.css);
+
+@import url(./utility/border-radius/border-bottom-left-radius.css);
+@import url(./utility/border-radius/border-bottom-right-radius.css);
+@import url(./utility/border-radius/border-top-left-radius.css);
+@import url(./utility/border-radius/border-top-right-radius.css);
+@import url(./utility/border-radius/general-border-radius.css);
+
+@import url(./utility/bg-colors/bg-colors.css);

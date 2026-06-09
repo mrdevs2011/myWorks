@@ -1,0 +1,35 @@
+.td-dashed {
+    text-decoration: dashed;
+}
+
+.td-dotted {
+    text-decoration: dotted;
+}
+
+.td-double {
+    text-decoration: double;
+}
+
+.td-lt {
+    text-decoration: line-through;
+}
+
+.td-none {
+    text-decoration: none;
+}
+
+.td-overline {
+    text-decoration: overline;
+}
+
+.td-solid {
+    text-decoration: solid;
+}
+
+.td-underline {
+    text-decoration: underline;
+}
+
+.td-wavy {
+    text-decoration: wavy;
+}
