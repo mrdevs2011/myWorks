@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choynak</title>
+    <link rel="shortcut icon" href="./choynak.png" type="image/x-icon">
+    <style>
+        @keyframes choynak {
+            0% {
+                top: 300px;
+                rotate: 0deg;
+            }
+
+            10% {
+                rotate: 0deg;
+            }
+
+            20% {
+                top: 150px;
+                rotate: -52deg;
+                left: 680px;
+            }
+
+            40% {
+                rotate: -52deg;
+                top: 150px;
+                left: 680px;
+            }
+
+            45% {
+                top: 150px;
+            }
+
+            50% {
+                top: 150px;
+                rotate: 0deg;
+            }
+
+            60% {
+                top: 300px;
+            }
+
+            100% {
+                top: 300px;
+                rotate: 0deg;
+            }
+        }
+
+        @keyframes milk {
+            0% {
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 0;
+            }
+
+            18% {
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 1;
+            }
+
+            39% {
+                opacity: 1;
+            }
+
+            41% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes piyola {
+            0% {
+                left: -300px;
+                opacity: 1;
+            }
+
+            10% {
+                opacity: 1;
+                left: 430px;
+            }
+
+            45% {
+                opacity: 1;
+                left: 430px;
+            }
+
+            50% {
+                opacity: 1;
+                left: 430px;
+            }
+
+            51% {
+                left: 430px;
+                opacity: 1;
+            }
+
+            60% {
+                opacity: 1;
+                left: -300px;
+            }
+
+            100% {
+                left: -300px;
+            }
+        }
+
+        @keyframes bh {
+            0% {
+                left: -220px;
+                rotate: 0deg;
+            }
+
+            5% {
+                left: -220px;
+                rotate: 0deg;
+            }
+
+            10% {
+                left: 50px;
+                rotate: 10deg;
+            }
+
+            15% {
+                left: 50px;
+                rotate: -10deg;
+            }
+
+            20% {
+                rotate: 0deg;
+            }
+
+            25% {
+                left: 50px;
+                rotate: -10deg;
+            }
+
+            30% {
+                rotate: 0deg;
+            }
+
+            35% {
+                left: 50px;
+            }
+
+            40% {
+                left: -220px;
+            }
+
+            100% {
+                left: -220px;
+            }
+        }
+
+        body {
+            background-color: rgb(209, 242, 255);
+        }
+
+        .choynak {
+            position: absolute;
+            top: 110px;
+            rotate: -60deg;
+            left: 680px;
+            width: 400px;
+            height: 300px;
+            background-color: rgb(0, 149, 255);
+            border-radius: 45%;
+            animation: choynak 15s linear infinite;
+            z-index: 3;
+        }
+
+        .jombagi {
+            position: absolute;
+            top: 50px;
+            left: -50px;
+            width: 110px;
+            height: 70px;
+            rotate: 45deg;
+            background-color: rgb(0, 149, 255);
+            border-radius: 5px;
+            z-index: -1;
+        }
+
+        .sopi {
+            position: absolute;
+            top: 40px;
+            left: 320px;
+            width: 100px;
+            height: 150px;
+            border-radius: 50%;
+            border: 30px solid rgb(0, 149, 255);
+            z-index: -2;
+        }
+
+        .qoppogi {
+            position: absolute;
+            left: 100px;
+            width: 200px;
+            height: 30px;
+            border-radius: 50px;
+            background-color: rgb(0, 149, 255);
+        }
+
+        .qoppogini-qoppogi {
+            position: absolute;
+            left: 65px;
+            top: -40px;
+            height: 60px;
+            width: 60px;
+            background-color: rgb(60, 174, 255);
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        .piyola {
+            position: absolute;
+            top: 460px;
+            left: 430px;
+            height: 150px;
+            width: 250px;
+            background-color: rgb(0, 149, 255);
+            border-bottom-left-radius: 55%;
+            border-bottom-right-radius: 55%;
+            animation: piyola 15s linear infinite;
+            z-index: 2;
+        }
+
+        .naqshlari {
+            position: absolute;
+            top: 50px;
+            left: 30px;
+        }
+
+        .naqsh1 {
+            position: absolute;
+            top: 60px;
+            left: 0px;
+            width: 160px;
+            height: 80px;
+            rotate: 45deg;
+            border: 25px solid white;
+            border-radius: 80%;
+            background-color: rgb(237, 237, 237);
+        }
+
+        .naqsh2 {
+            position: absolute;
+            top: 60px;
+            left: 130px;
+            width: 160px;
+            height: 80px;
+            rotate: -45deg;
+            border: 25px solid white;
+            border-radius: 80%;
+            background-color: rgb(237, 237, 237);
+        }
+
+        .naqsh3 {
+            position: absolute;
+            top: 40px;
+            left: 65px;
+            width: 160px;
+            height: 80px;
+            rotate: 90deg;
+            border: 25px solid white;
+            background-color: rgb(237, 237, 237);
+            border-radius: 80%;
+        }
+
+        .piyola .naqshlari {
+            position: absolute;
+            top: 50px;
+            left: 25px;
+        }
+
+        .piyola .naqsh1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 80px;
+            height: 40px;
+            rotate: 45deg;
+            border: 12.5px solid white;
+            background-color: rgb(237, 237, 237);
+            border-radius: 80%;
+        }
+
+        .piyola .naqsh2 {
+            position: absolute;
+            top: 0px;
+            left: 95px;
+            width: 80px;
+            height: 40px;
+            rotate: -45deg;
+            border: 12.5px solid white;
+            background-color: rgb(237, 237, 237);
+            border-radius: 80%;
+        }
+
+        .piyola .naqsh3 {
+            position: absolute;
+            top: -10px;
+            left: 45px;
+            width: 80px;
+            height: 40px;
+            rotate: 90deg;
+            border: 12.5px solid white;
+            background-color: rgb(237, 237, 237);
+            border-radius: 80%;
+        }
+
+        .milk {
+            position: absolute;
+            top: 278px;
+            left: 450px;
+            height: 250px;
+            width: 250px;
+            border: 45px solid rgb(255, 255, 255);
+            transform-origin: right;
+            border-radius: 100%;
+            opacity: 1;
+            rotate: -45deg;
+            z-index: -4;
+            animation: milk 15s linear infinite;
+
+        }
+
+        .whitecard1 {
+            position: absolute;
+            top: 420px;
+            left: 660px;
+            height: 350px;
+            width: 200px;
+            transform-origin: right;
+            background-color: rgb(209, 242, 255);
+            opacity: 1;
+            z-index: -1;
+        }
+
+        .whitecard2 {
+            position: absolute;
+            top: 604px;
+            left: 500px;
+            height: 150px;
+            width: 170px;
+            transform-origin: right;
+            background-color: rgb(209, 242, 255);
+            opacity: 1;
+            z-index: -1;
+        }
+
+        .maysa {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            background-color: rgb(48, 255, 44);
+            height: 40%;
+            width: 100%;
+        }
+
+        .container {
+            position: relative;
+            top: -50px;
+        }
+
+        .bubble-help {
+            position: absolute;
+            z-index: 10;
+            top: 220px;
+            left: 70px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            font-size: 25px;
+            font-family: serif;
+            padding: 30px;
+            animation: bh 15s linear infinite;
+        }
+
+        .bubble-help .circle1 {
+            position: absolute;
+            left: -20px;
+            top: 80px;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: whitesmoke;
+            border: 5px solid rgb(209, 242, 255);
+        }
+
+        .bubble-help .circle2 {
+            position: absolute;
+            left: -35px;
+            top: 115px;
+            height: 23px;
+            width: 23px;
+            border-radius: 50%;
+            background-color: whitesmoke;
+        }
+
+        .bubble-help .circle3 {
+            position: absolute;
+            left: -50px;
+            top: 140px;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bubble-help">Please milk!
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+        </div>
+        <div class="choynak">
+            <div class="qoppogi">
+                <div class="qoppogini-qoppogi"></div>
+            </div>
+            <div class="naqshlari">
+                <div class="naqsh1"></div>
+                <div class="naqsh2"></div>
+                <div class="naqsh3"></div>
+            </div>
+            <div class="jombagi"></div>
+            <div class="sopi"></div>
+        </div>
+        <div class="whitecard1"></div>
+        <div class="whitecard2"></div>
+        <div class="milk"></div>
+        <div class="piyola">
+            <div class="naqshlari">
+                <div class="naqsh1"></div>
+                <div class="naqsh2"></div>
+                <div class="naqsh3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="maysa"></div>
+</body>
+
+</html>
