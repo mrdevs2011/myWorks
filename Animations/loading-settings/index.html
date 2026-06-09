@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Settings</title>
+    <style>
+        @keyframes loading2 {
+            0% {
+                rotate: 0deg;
+            }
+
+            100% {
+                rotate: 360deg;
+            }
+        }
+
+
+        .circle {
+            position: relative;
+            top: 40vh;
+            left: 80vh;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 10px solid black;
+            animation: loading 5s linear infinite;
+        }
+
+        .circle .circle {
+            position: relative;
+            top: -16px;
+            left: -16px;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 6px dashed black;
+            animation: loading2 5s linear infinite;
+            z-index: -1;
+        }
+
+        .circle2 {
+            position: relative;
+            top: 34vh;
+            left: 95vh;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 10px solid black;
+            animation: loading 5s linear infinite;
+        }
+
+        .circle2 .circle {
+            position: relative;
+            top: -16px;
+            left: -16px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 6px dashed black;
+            animation: loading2 5s linear infinite;
+            z-index: -1;
+        }
+
+        .loading-text {
+            position: absolute;
+            top: 500px;
+            left: 615px;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .circle:hover .circle {
+            animation-play-state: paused;
+        }
+
+        .circle2:hover .circle {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle">
+        <div class="circle"></div>
+    </div>
+    <div class="circle2">
+        <div class="circle"></div>
+    </div>
+    <div class="loading-text">
+        Loading Settings...
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+@keyframes sun {
+    0% {
+        right: 500px;
+    }
+
+    50% {
+        right: 1400px;
+        background-color: rgb(255, 179, 0);
+        border: 10px solid rgb(255, 191, 40);
+
+    }
+
+    55% {
+        right: 1400px;
+        top: 100px;
+    }
+
+    100% {
+        right: 500px;
+    }
+}
+
+@keyframes moon {
+    0% {
+        top: -100px;
+        right: 0px;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    30% {
+        top: -100px;
+        opacity: 0;
+        right: 0px;
+    }
+
+    40% {
+        top: 30px;
+        right: 500px;
+        opacity: 1;
+    }
+
+    70% {
+        top: 30px;
+        right: 500px;
+        opacity: 1;
+    }
+
+    90% {
+        top: -100px;
+        right: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        top: -100px;
+        right: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes body {
+    0% {
+        background-color: skyblue;
+    }
+
+    50% {
+        background-color: rgb(0, 14, 41);
+    }
+
+    60% {
+        background-color: rgb(0, 14, 41);
+    }
+
+    100% {
+        background-color: skyblue;
+    }
+}
+
+@keyframes child {
+    0% {
+        opacity: 0;
+        left: 210px;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    50% {
+        left: -1210px;
+        opacity: 1;
+        bottom: -160px;
+    }
+
+    55% {
+        opacity: 1;
+        bottom: -110px;
+    }
+
+    56% {
+        opacity: 0;
+        bottom: -110px;
+        left: -1210px;
+    }
+
+    70% {
+        opacity: 0;
+        left: -1210px;
+        bottom: -110px;
+    }
+
+    75% {
+        opacity: 1;
+        bottom: -160px;
+        left: -1210px;
+    }
+
+
+    100% {
+        left: -1410px;
+        bottom: -160px;
+    }
+
+}
+
+@keyframes hand {
+    0% {
+        rotate: 0deg;
+        right: 1100px;
+    }
+
+    30% {
+        rotate: 5deg;
+    }
+
+    60% {
+        rotate: -5deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes leg {
+    0% {
+        rotate: 0deg;
+    }
+
+    30% {
+        rotate: 5deg;
+    }
+
+    60% {
+        rotate: -5deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes led {
+    0% {
+        background-color: rgb(255, 255, 255);
+        opacity: 0;
+    }
+
+    45% {
+        background-color: rgb(255, 255, 255);
+        opacity: 0;
+    }
+
+    46% {
+        background-color: rgb(255, 255, 255);
+        opacity: 1;
+    }
+
+    60% {
+        background-color: rgb(255, 255, 255);
+        opacity: 1;
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255);
+        opacity: 0;
+    }
+}
+
+/* For Move car — izoh olib tashlandi, endi ishlaydi */
+@keyframes moveCar {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: calc(100vw - 500px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+/* For left ballon rotate */
+@keyframes rotate-ballon-left {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+/* For right ballon rotate */
+@keyframes rotate-ballon-right {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+/* For tree */
+@keyframes tree-move {
+    0% {
+        transform: translateX(100vw);
+    }
+
+    100% {
+        transform: translateX(-150vw);
+    }
+}

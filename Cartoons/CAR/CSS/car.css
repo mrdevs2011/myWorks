@@ -1,0 +1,323 @@
+       /* Footer road strip — avvalgi ".road" nomi main.css bilan to'qnashayotgan edi */
+       .road-strip {
+           position: absolute;  /* top:820px o'rniga — endi konteyner pastiga yopishadi */
+           bottom: 0;
+           left: 0;
+           background-color: rgb(0, 255, 34);
+           width: 100%;
+           height: 50px;
+           z-index: 1;
+       }
+
+       /* Root car */
+
+       .car {
+           position: absolute;
+           /* Mashina faqat o'rtada turadi - harakatlanmaydi */
+           bottom: 20px;
+           left: 50%;
+           transform: translateX(-50%);
+           z-index: 2;
+       }
+
+
+       /* Root */
+
+       .top {
+           position: absolute;
+           bottom: 150px;
+           left: 50px;
+           width: 190px;
+           height: 90px;
+           background-color: rgb(0, 149, 255);
+           border-top-left-radius: 30px;
+           border-top-right-radius: 30px;
+       }
+
+       .bottom {
+           position: absolute;
+           bottom: 50px;
+           left: 50px;
+           width: 300px;
+           height: 100px;
+           background-color: rgb(0, 149, 255);
+           border-top-right-radius: 30px;
+           border-bottom-right-radius: 10px;
+           z-index: 1;
+       }
+
+       /* Lamps */
+
+       .lamp {
+           position: absolute;
+           bottom: 110px;
+           left: 335px;
+           border-radius: 50%;
+           width: 15px;
+           height: 15px;
+           background-color: rgb(255, 221, 0);
+           border: 5px solid rgb(255, 221, 0);
+           z-index: 0;
+           transition: 0.5s ease;
+       }
+
+       .right-lamp {
+           position: absolute;
+           bottom: 120px;
+           left: 280px;
+           border-radius: 50%;
+           width: 10px;
+           height: 5px;
+           background-color: rgb(255, 221, 0);
+           border: 3px solid rgb(255, 221, 0);
+           z-index: 1;
+           transition: 0.5s;
+       }
+
+       /* Door and Mirrors */
+
+       .door {
+           position: absolute;
+           bottom: 55px;
+           left: 58px;
+           width: 169px;
+           height: 92px;
+           border: 3px solid white;
+           background-color: transparent;
+           border-bottom-left-radius: 10px;
+           border-bottom-right-radius: 15px;
+           z-index: 1;
+       }
+
+       .mirror-left {
+           position: absolute;
+           bottom: 149px;
+           left: 58px;
+           width: 39px;
+           height: 78px;
+           border-top-left-radius: 20px;
+           border-bottom-left-radius: 5px;
+           background-color: #000000;
+           border: 3px solid white;
+       }
+
+       .mirror-center {
+           position: absolute;
+           bottom: 149px;
+           left: 100px;
+           width: 87px;
+           height: 78px;
+           background-color: #000000;
+           border: 3px solid white;
+       }
+
+       .mirror-right {
+           position: absolute;
+           bottom: 149px;
+           left: 190px;
+           width: 37px;
+           height: 78px;
+           border-top-right-radius: 20px;
+           border-bottom-right-radius: 5px;
+           background-color: #000000;
+           border: 3px solid white;
+       }
+
+       /* Small equipments */
+
+       .door-opener1 {
+           position: absolute;
+           left: 190px;
+           bottom: 130px;
+           width: 20px;
+           height: 5px;
+           background-color: #000000;
+           border: 2px solid white;
+           border-bottom-left-radius: 4px;
+           border-bottom-right-radius: 4px;
+           border-top-left-radius: 10px;
+           border-top-right-radius: 10px;
+           z-index: 1;
+       }
+
+       .door-opener2 {
+           position: absolute;
+           left: 192px;
+           bottom: 123px;
+           width: 15px;
+           height: 5px;
+           background-color: #000000;
+           border: 2px solid white;
+           border-bottom-left-radius: 10px;
+           border-bottom-right-radius: 10px;
+           z-index: 1;
+       }
+
+
+       .smoker {
+           position: absolute;
+           left: 40px;
+           bottom: 50px;
+           width: 10px;
+           height: 7px;
+           background-color: gray;
+           border-top-left-radius: 5px;
+           border-bottom-left-radius: 5px;
+       }
+
+
+       /* Ballons */
+
+       .ballon1in {
+           position: relative;
+           bottom: -107px;
+           left: 58px;
+           width: 70px;
+           height: 68px;
+           background-color: skyblue;
+           border-radius: 50%;
+           z-index: 1;
+       }
+
+       .ballon2in {
+           position: absolute;
+           bottom: 20px;
+           left: 270px;
+           width: 70px;
+           height: 68px;
+           background-color: skyblue;
+           border-radius: 50%;
+           z-index: 1;
+       }
+
+
+       .back-ballon {
+           position: absolute;
+           left: 25px;
+           bottom: 100px;
+           width: 25px;
+           height: 50px;
+           background-color: #000000;
+           border-bottom-left-radius: 5px;
+           border-top-left-radius: 5px;
+       }
+
+       /* Left ballons */
+
+       .ballons-left {
+           position: relative;
+           bottom: -43px;
+           left: 61px;
+           width: 50px;
+           height: 50px;
+           background-color: rgb(161, 248, 238);
+           border: 7px solid black;
+           border-radius: 50%;
+           animation: rotate-ballon-left 5s linear infinite;
+           z-index: 1;
+       }
+
+       .ballon-stick1 {
+           position: absolute;
+           bottom: 21px;
+           height: 5px;
+           width: 50px;
+           background-color: gray;
+           border-radius: 5px;
+       }
+
+       .ballon-stick2 {
+           position: absolute;
+           bottom: 21px;
+           height: 5px;
+           width: 50px;
+           background-color: gray;
+           border-radius: 5px;
+           transform: rotate(45deg);
+           transform-origin: center;
+       }
+
+       .ballon-stick3 {
+           position: absolute;
+           bottom: 22px;
+           height: 5px;
+           width: 48px;
+           background-color: gray;
+           border-radius: 5px;
+           transform: rotate(90deg);
+           transform-origin: center;
+       }
+
+       .ballon-stick4 {
+           position: absolute;
+           bottom: 21px;
+           height: 5px;
+           width: 50px;
+           background-color: gray;
+           border-radius: 5px;
+           transform: rotate(135deg);
+           transform-origin: center;
+       }
+
+       /* Right ballons */
+
+       .ballons-right {
+           position: relative;
+           bottom: 20px;
+           left: 273px;
+           width: 50px;
+           height: 50px;
+           background-color: rgb(161, 248, 238);
+           border: 7px solid black;
+           border-radius: 50%;
+           animation: rotate-ballon-right 5s linear infinite;
+           z-index: 1;
+       }
+
+       .ballonstick1 {
+           position: absolute;
+           left: 0px;
+           bottom: 23px;
+           height: 5px;
+           width: 50px;
+           background-color: gray;
+           border-radius: 5px;
+       }
+
+
+       .ballonstick2 {
+           position: absolute;
+           left: 0px;
+           bottom: 23px;
+           height: 5px;
+           width: 50px;
+           background-color: gray;
+           border-radius: 5px;
+           transform: rotate(45deg);
+           transform-origin: center;
+       }
+
+
+       .ballonstick3 {
+           position: absolute;
+           left: 0px;
+           bottom: 23px;
+           height: 5px;
+           width: 50px;
+           background-color: gray;
+           border-radius: 5px;
+           transform: rotate(90deg);
+           transform-origin: center;
+       }
+
+       .ballonstick4 {
+           position: absolute;
+           left: 0px;
+           bottom: 23px;
+           height: 5px;
+           width: 50px;
+           background-color: gray;
+           border-radius: 5px;
+           transform: rotate(135deg);
+           transform-origin: center;
+       }

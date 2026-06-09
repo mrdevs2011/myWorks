@@ -1,0 +1,135 @@
+/* Tree 1 - Barcha daraxtlar bir xil tekislikda (bottom: 150px) */
+.tree1-top {
+    position: absolute;
+    bottom: 150px;
+    width: 200px;
+    height: 350px;
+    background-color: rgb(31, 168, 49);
+    border-radius: 50%;
+    z-index: 1;
+    animation: tree-move 10s linear infinite;
+}
+
+.tree1-bottom {
+    position: absolute;
+    bottom: 50px;
+    /* Wood leaf markazida: (200px / 2) - (50px / 2) = 75px */
+    left: 75px;
+    width: 50px;
+    height: 200px;
+    background-color: rgb(215, 93, 40);
+    z-index: -1;
+    animation: tree-move 10s linear infinite;
+}
+
+/* Tree 2 - Barcha daraxtlar bir xil tekislikda */
+
+.tree2-top {
+    position: absolute;
+    bottom: 150px;
+    left: 250px;
+    width: 180px;
+    height: 250px;
+    background-color: rgb(30, 231, 57);
+    border-radius: 50%;
+    z-index: 1;
+    animation: tree-move 8s linear infinite;
+    animation-delay: -2s;
+}
+
+.tree2-bottom {
+    position: absolute;
+    bottom: 50px;
+    /* Wood leaf markazida: 250px + (180px / 2) - (40px / 2) = 250 + 90 - 20 = 320px */
+    left: 320px;
+    width: 40px;
+    height: 200px;
+    background-color: rgb(129, 44, 8);
+    z-index: -1;
+    animation: tree-move 8s linear infinite;
+    animation-delay: -2s;
+}
+
+/* Tree 3 - Barcha daraxtlar bir xil tekislikda */
+
+.tree3-top {
+    position: absolute;
+    bottom: 150px;
+    left: 500px;
+    width: 180px;
+    height: 350px;
+    background-color: rgb(10, 159, 30);
+    border-radius: 50%;
+    z-index: 1;
+    animation: tree-move 9s linear infinite;
+    animation-delay: -5s;
+}
+
+.tree3-bottom {
+    position: absolute;
+    bottom: 50px;
+    /* Wood leaf markazida: 500px + (180px / 2) - (40px / 2) = 500 + 90 - 20 = 570px */
+    left: 570px;
+    width: 40px;
+    height: 200px;
+    background-color: rgb(226, 81, 19);
+    z-index: -1;
+    animation: tree-move 9s linear infinite;
+    animation-delay: -5s;
+}
+
+/* Tree 4 - Barcha daraxtlar bir xil tekislikda */
+
+.tree4-top {
+    position: absolute;
+    bottom: 150px;
+    left: 800px;
+    width: 200px;
+    height: 389px;
+    background-color: rgb(8, 195, 33);
+    border-radius: 50%;
+    z-index: 1;
+    animation: tree-move 7s linear infinite;
+    animation-delay: -1s;
+}
+
+.tree4-bottom {
+    position: absolute;
+    bottom: 50px;
+    /* Wood leaf markazida: 800px + (200px / 2) - (50px / 2) = 800 + 100 - 25 = 875px */
+    left: 875px;
+    width: 50px;
+    height: 200px;
+    background-color: rgb(219, 90, 34);
+    z-index: -1;
+    animation: tree-move 7s linear infinite;
+    animation-delay: -1s;
+}
+
+/* Tree 5 - Barcha daraxtlar bir xil tekislikda */
+
+.tree5-top {
+    position: absolute;
+    bottom: 150px;
+    left: 1100px;
+    width: 200px;
+    height: 489px;
+    background-color: rgb(16, 231, 2);
+    border-radius: 50%;
+    z-index: 1;
+    animation: tree-move 6s linear infinite;
+    animation-delay: -3s;
+}
+
+.tree5-bottom {
+    position: absolute;
+    bottom: 50px;
+    /* Wood leaf markazida: 1100px + (200px / 2) - (50px / 2) = 1100 + 100 - 25 = 1175px */
+    left: 1175px;
+    width: 50px;
+    height: 200px;
+    background-color: rgb(200, 61, 2);
+    z-index: -1;
+    animation: tree-move 6s linear infinite;
+    animation-delay: -3s;
+}

@@ -1,0 +1,583 @@
+       @import url(./animations.css);
+       @import url(./splash.css);
+
+       .go-to-mosque {
+           position: absolute;
+           top: -10px;
+           left: -10px;
+           background-color: rgb(0, 195, 209);
+           width: 1430px;
+           height: 765px;
+           z-index: 8;
+           animation: splash 30s linear infinite;
+       }
+
+       .sun {
+           position: absolute;
+           top: 20px;
+           right: 500px;
+           width: 100px;
+           height: 100px;
+           border-radius: 50%;
+           background-color: yellow;
+           border: 10px solid rgb(255, 255, 142);
+           animation: sun 30s linear infinite;
+       }
+
+       .sun-helper {
+           position: absolute;
+           top: -25px;
+           right: -25px;
+           width: 150px;
+           height: 150px;
+           border-radius: 50%;
+           background-color: yellow;
+           opacity: 0.5;
+           z-index: -3;
+       }
+
+
+       .moon {
+           position: absolute;
+           top: 0;
+           right: 100px;
+           width: 100px;
+           height: 100px;
+           border-radius: 50%;
+           background-color: rgb(205, 205, 205);
+           animation: moon 30s linear infinite;
+       }
+
+       .moon-helpers1 .moon-helper1 {
+           position: absolute;
+           top: 20px;
+           left: 10px;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: rgb(231, 230, 230);
+       }
+
+       .moon-helpers1 .moon-helper2 {
+           position: absolute;
+           top: 10px;
+           left: 35px;
+           width: 30px;
+           height: 30px;
+           border-radius: 50%;
+           background-color: rgb(231, 230, 230);
+       }
+
+       .moon-helpers1 .moon-helper3 {
+           position: absolute;
+           top: 75px;
+           left: 40px;
+           width: 15px;
+           height: 15px;
+           border-radius: 50%;
+           background-color: rgb(231, 230, 230);
+       }
+
+       .moon-helpers1 .moon-helper4 {
+           position: absolute;
+           top: 30px;
+           left: 70px;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: rgb(231, 230, 230);
+       }
+
+       .moon-helpers2 .moon-helper1 {
+           position: absolute;
+           top: 20px;
+           left: 10px;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: rgb(231, 230, 230);
+       }
+
+       .moon-helpers2 .moon-helper2 {
+           position: absolute;
+           top: 50px;
+           left: 10px;
+           width: 30px;
+           height: 30px;
+           border-radius: 50%;
+           background-color: rgb(231, 230, 230);
+       }
+
+       .moon-helpers2 .moon-helper3 {
+           position: absolute;
+           top: 55px;
+           left: 50px;
+           width: 15px;
+           height: 15px;
+           border-radius: 50%;
+           background-color: rgb(231, 230, 230);
+       }
+
+       .moon-helpers2 .moon-helper4 {
+           position: absolute;
+           top: 65px;
+           left: 65px;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: rgb(231, 230, 230);
+       }
+
+
+       body {
+           background-color: skyblue;
+           animation: body 30s linear infinite;
+       }
+
+       .cartoon {
+           position: relative;
+       }
+
+       .child {
+           position: relative;
+           left: 210px;
+           bottom: -160px;
+           animation: child 30s linear infinite;
+           z-index: 9;
+       }
+
+       .road {
+           position: fixed;
+           bottom: 0px;
+           left: 0;
+           width: 100%;
+           height: 100px;
+           background-color: gray;
+           border-bottom: 5px solid black;
+           border-top: 5px solid black;
+       }
+
+       .head {
+           position: absolute;
+           right: 100px;
+           bottom: 330px;
+           width: 100px;
+           height: 100px;
+           border-radius: 50%;
+           background-color: rgb(249, 197, 125);
+           z-index: 1;
+       }
+
+       .hair {
+           position: absolute;
+           left: 10px;
+           width: 105px;
+           height: 50px;
+           border-top-left-radius: 100px;
+           border-top-right-radius: 100px;
+           border-bottom-right-radius: 10px;
+           border-bottom-left-radius: 10px;
+           background-color: rgb(243, 243, 243);
+           rotate: 25deg;
+           border-bottom: 2px solid black;
+       }
+
+       .sunglass {
+           position: absolute;
+           left: -2px;
+           top: 35px;
+           width: 5px;
+           height: 15px;
+           background-color: black;
+           rotate: -5deg;
+           border-radius: 2px;
+       }
+
+       .sunglass-stick {
+           position: absolute;
+           top: 35px;
+           width: 50px;
+           height: 4px;
+           background-color: black;
+           rotate: -5deg;
+           border-radius: 2px;
+       }
+
+       .sunglass-helper {
+           position: absolute;
+           top: 4px;
+           left: 48px;
+           width: 20px;
+           height: 4px;
+           background-color: black;
+           rotate: 25deg;
+           border-radius: 2px;
+       }
+
+       .heir {
+           position: absolute;
+           top: 35px;
+           left: 41px;
+           width: 20px;
+           height: 25px;
+           border-radius: 50%;
+           background-color: rgb(255, 180, 74);
+       }
+
+       .heir-helper {
+           position: absolute;
+           top: 6px;
+           left: 5px;
+           width: 6px;
+           height: 10px;
+           background-color: transparent;
+           border-radius: 50%;
+           border-right: 2px solid black;
+           border-top: 2px solid black;
+       }
+
+       .heir-helper .helper {
+           position: absolute;
+           top: 4px;
+           left: 2px;
+           width: 2px;
+           height: 2px;
+           border-radius: 50%;
+           background-color: black;
+       }
+
+       .nouse {
+           position: absolute;
+           top: 55px;
+           left: -2px;
+           width: 10px;
+           height: 10px;
+           border-top-left-radius: 50px;
+           border-top-right-radius: 50px;
+           border-bottom-left-radius: 20px;
+           background-color: rgb(249, 197, 125);
+       }
+
+       .mouse {
+           position: absolute;
+           top: 73px;
+           left: 5px;
+           width: 15px;
+           height: 7px;
+           border-bottom-left-radius: 50px;
+           border-bottom-right-radius: 50px;
+           border-top-right-radius: 10px;
+           background-color: rgb(255, 25, 64);
+           rotate: -5deg;
+       }
+
+       .body {
+           position: absolute;
+           bottom: 220px;
+           right: 125px;
+           height: 100px;
+           width: 50px;
+           border-top-left-radius: 50px;
+           border-top-right-radius: 50px;
+           background-color: white;
+       }
+
+       .boyin {
+           position: absolute;
+           top: -40px;
+           left: 12px;
+           width: 20px;
+           height: 50px;
+           background-color: rgb(249, 197, 125);
+           z-index: -1;
+       }
+
+       .hand {
+           position: absolute;
+           border-top-left-radius: 50px;
+           border-top-right-radius: 50px;
+           left: 10px;
+           width: 29px;
+           height: 95px;
+           background-color: rgb(249, 197, 125);
+           animation: hand 6s linear infinite;
+           transform-origin: top;
+           z-index: 4;
+       }
+
+       .hand-helper {
+           position: absolute;
+           left: -5px;
+           height: 30px;
+           width: 40px;
+           border-top-left-radius: 50px;
+           border-top-right-radius: 50px;
+           border-bottom-left-radius: 10px;
+           border-bottom-right-radius: 10px;
+           background-color: rgb(243, 243, 243);
+       }
+
+       .hand .hand {
+           position: absolute;
+           top: 85px;
+           left: -2px;
+           width: 33px;
+           height: 25px;
+           background-color: rgb(249, 197, 125);
+           border-bottom-right-radius: 10px;
+           z-index: 4;
+       }
+
+       .finger1 {
+           position: absolute;
+           top: 15px;
+           height: 15px;
+           width: 7px;
+           background-color: rgb(249, 197, 125);
+           border-radius: 15px;
+           transform-origin: top;
+           rotate: 30deg;
+       }
+
+       .finger2 {
+           position: absolute;
+           left: 4px;
+           top: 20px;
+           height: 23px;
+           width: 6px;
+           background-color: rgb(249, 197, 125);
+           border-radius: 15px;
+       }
+
+       .finger3 {
+           position: absolute;
+           left: 12px;
+           top: 20px;
+           height: 26px;
+           width: 6px;
+           background-color: rgb(249, 197, 125);
+           border-radius: 15px;
+       }
+
+       .uzuk {
+           position: absolute;
+           top: 10px;
+           width: 6px;
+           height: 2px;
+           background-color: rgb(255, 238, 0);
+       }
+
+       .finger4 {
+           position: absolute;
+           left: 20px;
+           top: 20px;
+           height: 24px;
+           width: 6px;
+           background-color: rgb(249, 197, 125);
+           border-radius: 15px;
+       }
+
+       .finger5 {
+           position: absolute;
+           left: 27px;
+           top: 20px;
+           height: 20px;
+           width: 5px;
+           background-color: rgb(249, 197, 125);
+           border-radius: 15px;
+       }
+
+       .leg {
+           position: absolute;
+           top: 100px;
+           border-top-left-radius: 50px;
+           border-top-right-radius: 50px;
+           left: 10px;
+           width: 25px;
+           height: 95px;
+           background-color: rgb(249, 197, 125);
+           animation: leg 3s linear infinite;
+       }
+
+       .leg-helper {
+           position: absolute;
+           top: 100px;
+           height: 70px;
+           width: 50px;
+           border-bottom-left-radius: 1px;
+           border-bottom-right-radius: 1px;
+           background-color: white;
+           z-index: 1;
+       }
+
+       .sneakers {
+           position: absolute;
+           top: 95px;
+           left: -10px;
+           width: 40px;
+           height: 10px;
+           background-color: white;
+           border-bottom-left-radius: 2px;
+           border-bottom-right-radius: 2px;
+           border-top-left-radius: 50%;
+           border-top-right-radius: 1px;
+           border-bottom: 2px solid black;
+       }
+
+       .mosque {
+           position: absolute;
+           left: -250px;
+           bottom: 105px;
+           background-color: rgb(213, 186, 67);
+           height: 500px;
+           width: 500px;
+           border-top-right-radius: 10px;
+           border-right: 3px solid black;
+           border-top: 3px solid black;
+       }
+
+       .led-glow {
+           position: absolute;
+           top: 30px;
+           left: 300px;
+           width: 30px;
+           height: 30px;
+           border-radius: 50%;
+           background-color: rgb(221, 221, 221);
+           z-index: 1;
+       }
+
+       .led {
+           position: absolute;
+           top: -5px;
+           left: -5px;
+           width: 40px;
+           height: 40px;
+           border-radius: 50%;
+           background-color: white;
+           opacity: 1;
+           animation: led 30s linear infinite;
+       }
+
+       .led-glow:active {
+           background-color: white;
+       }
+
+       .mosque .door {
+           position: absolute;
+           left: 240px;
+           bottom: -2px;
+           width: 150px;
+           height: 350px;
+           background-color: rgb(84, 84, 84);
+           border: 2px solid black;
+           border-top-right-radius: 50%;
+           border-top-left-radius: 50%;
+       }
+
+       .gumbaz {
+           position: absolute;
+           top: -103px;
+           left: 200px;
+           width: 200px;
+           height: 300px;
+           background-color: rgb(45, 190, 72);
+           border-top-right-radius: 100px;
+           border-top-left-radius: 100px;
+           z-index: -1;
+       }
+
+       .gumbaz .helper {
+           position: absolute;
+           top: -10px;
+           left: 100px;
+           width: 5px;
+           height: 10px;
+           background-color: rgb(199, 205, 44);
+           border-radius: 50px;
+       }
+
+       .gumbaz .st2helper {
+           position: absolute;
+           top: -15px;
+           left: 1.5px;
+           width: 2px;
+           height: 20px;
+           background-color: rgb(189, 194, 42);
+           border-radius: 50px;
+       }
+
+       .moon-mosque {
+           position: absolute;
+           top: -45px;
+           left: 93px;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           border-left: 3px solid rgb(221, 227, 51);
+           border-bottom: 3px solid rgb(221, 227, 51);
+           z-index: 2;
+       }
+
+       .watch {
+           position: absolute;
+           top: 80px;
+           height: 5px;
+           width: 30px;
+           background-color: black;
+           z-index: 5;
+       }
+
+       .watch-helper {
+           position: absolute;
+           top: -6px;
+           left: 6px;
+           width: 13px;
+           height: 13px;
+           background-color: white;
+           border: 2px solid black;
+           border-radius: 50%;
+       }
+
+       .point {
+           position: absolute;
+           top: 6px;
+           left: 6px;
+           width: 2px;
+           height: 2px;
+           background-color: rgb(0, 0, 0);
+           border-radius: 50%;
+       }
+
+       .zina1 {
+           position: absolute;
+           top: 500px;
+           left: 240px;
+           width: 150px;
+           height: 10px;
+           background-color: rgb(59, 59, 59);
+           z-index: 9;
+           border: 2px solid black;
+       }
+
+       .zina2 {
+           position: absolute;
+           top: 510px;
+           left: 240px;
+           width: 150px;
+           height: 10px;
+           background-color: rgb(59, 59, 59);
+           z-index: 9;
+           border: 2px solid black;
+       }
+
+       .zina3 {
+           position: absolute;
+           top: 520px;
+           left: 240px;
+           width: 150px;
+           height: 10px;
+           background-color: rgb(59, 59, 59);
+           z-index: 3;
+           border: 2px solid black;
+       }

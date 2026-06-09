@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash</title>
+    <style>
+        .trash {
+            position: absolute;
+            top: 320px;
+            left: 630px;
+            width: 100px;
+            height: 150px;
+            background-color: black;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .qoppoq {
+            position: absolute;
+            top: -17px;
+            left: -10px;
+            height: 15px;
+            width: 120px;
+            border-radius: 10px;
+            background-color: black;
+            transition: 0.5s ease;
+        }
+
+        .qoppoq-helper {
+            position: absolute;
+            top: -6px;
+            left: 54px;
+            height: 8px;
+            width: 15px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: black;
+        }
+
+        .vertical-line1 {
+            position: absolute;
+            top: 15px;
+            left: 12.5px;
+            height: 120px;
+            width: 15px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .vertical-line2 {
+            position: absolute;
+            top: 15px;
+            left: 42.5px;
+            height: 120px;
+            width: 15px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .vertical-line3 {
+            position: absolute;
+            top: 15px;
+            left: 72.5px;
+            height: 120px;
+            width: 15px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .trash:hover .qoppoq {
+            rotate: 45deg;
+            transform-origin: right;
+            transform: translateY(-5px);
+        }
+
+        .trash:hover .hello {
+            transform: translateY(-90px);
+            rotate: 45deg;
+            opacity: 1;
+            margin-left: -50px;
+        }
+
+        .hello {
+            position: absolute;
+            margin-left: 30px;
+            color: black;
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 2px;
+            transition: 0.5s ease;
+            opacity: 0;
+            text-align: center;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="trash">
+        <div class="vertical-line1"></div>
+        <div class="vertical-line2"></div>
+        <div class="vertical-line3"></div>
+        <div class="hello">I'm <br>Trash</div>
+        <div class="qoppoq">
+            <div class="qoppoq-helper"></div>
+        </div>
+    </div>
+</body>
+
+</html>

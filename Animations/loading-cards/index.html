@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading-cards</title>
+    <link rel="shortcut icon" href="./loading-cards.png" type="image/x-icon">
+    <style>
+        @keyframes card1 {
+            0% {
+                top: 0px;
+            }
+
+            10% {
+                top: 0px;
+            }
+
+            12.5% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 55px;
+                top: 0px;
+            }
+
+            35.25% {
+                top: -55px;
+                left: 55px;
+            }
+
+            42.5% {
+                top: -55px;
+                left: 0px;
+            }
+
+            50% {
+                top: 0px;
+                left: 0px;
+            }
+
+            10% {
+                top: 0px;
+            }
+
+            12.5% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 55px;
+                top: 0px;
+            }
+
+            35.25% {
+                top: -55px;
+                left: 55px;
+            }
+
+            42.5% {
+                top: -55px;
+                left: 0px;
+            }
+
+            50% {
+                top: 0px;
+                left: 0px;
+            }
+
+        }
+
+        @keyframes card2 {
+            0% {
+                top: 0px;
+            }
+
+            10% {
+                top: -55px;
+            }
+
+            12.25% {
+                right: 0px;
+                top: -55px;
+            }
+
+            25% {
+                right: 55px;
+                top: -55px;
+            }
+
+            35.25% {
+                top: 0px;
+                right: 55px;
+            }
+
+            50% {
+                right: 0px;
+
+            }
+        }
+
+        @keyframes card3 {
+            0% {
+                top: 55px;
+            }
+
+            10% {
+                top: 110px;
+            }
+
+            12.5% {
+                left: 0px;
+                top: 110px;
+            }
+
+            20% {
+                left: 55px;
+                top: 110px;
+            }
+
+            35.25% {
+                top: 55px;
+                left: 55px;
+            }
+
+            50% {
+                left: 0px;
+            }
+        }
+
+
+        @keyframes card4 {
+            0% {
+                top: 55px;
+            }
+
+            10% {
+                top: 55px;
+            }
+
+            12.5% {
+                right: 0px;
+                top: 55px;
+            }
+
+            25% {
+                right: 55px;
+                top: 55px;
+            }
+
+            35.25% {
+                top: 110px;
+                right: 55px;
+            }
+
+            42.5% {
+                top: 110px;
+                right: 0px;
+            }
+
+            50% {
+                top: 55px;
+                right: 0px;
+            }
+
+        }
+
+        .cards-container {
+            position: absolute;
+            top: 330px;
+            left: 640px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .card1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+            background-color: rgb(30, 219, 248);
+            animation: card1 2s ease-in-out infinite;
+        }
+
+        .card2 {
+            position: absolute;
+            top: 0;
+            right: 0px;
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+            background-color: rgb(237, 231, 231);
+            animation: card2 2s ease-in-out infinite;
+        }
+
+        .card3 {
+            position: absolute;
+            top: 55px;
+            left: 0;
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+            background-color: rgb(206, 206, 206);
+            animation: card3 2s ease-in-out infinite;
+        }
+
+        .card4 {
+            position: absolute;
+            top: 55px;
+            right: 0px;
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+            background-color: rgb(0, 221, 255);
+            animation: card4 2s ease-in-out infinite;
+        }
+
+        .cards-container:hover .card1 {
+            animation-play-state: paused;
+        }
+
+        .cards-container:hover .card2 {
+            animation-play-state: paused;
+        }
+
+        .cards-container:hover .card3 {
+            animation-play-state: paused;
+        }
+
+        .cards-container:hover .card4 {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards-container">
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+        <div class="card4"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="shortcut icon" href="clock.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: #000000;
+        }
+
+        @keyframes second {
+            0% {
+                rotate: 0deg;
+            }
+
+            100% {
+                rotate: 21510deg;
+            }
+
+            0% {
+                rotate: -0deg;
+            }
+        }
+
+        @keyframes minute {
+            0% {
+                rotate: 0deg;
+            }
+
+            100% {
+                rotate: 360deg;
+            }
+
+            0% {
+                rotate: -0deg;
+            }
+        }
+
+        .clock {
+            position: relative;
+            top: 25px;
+            left: 400px;
+            width: 700px;
+            height: 700px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            background-color: transparent;
+            cursor: grab;
+        }
+
+        .sticks {
+            display: inline-block;
+            position: absolute;
+            top: 350px;
+            left: 350px;
+        }
+
+        .minute {
+            position: relative;
+            bottom: -10px;
+            left: 5px;
+            width: 150px;
+            height: 20px;
+            background-color: #ffffff;
+            transform: rotate(-90deg);
+            transform-origin: 0%;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            animation: minute 60s linear infinite;
+        }
+
+        .second {
+            position: relative;
+            left: 5px;
+            bottom: 3px;
+            width: 200px;
+            height: 20px;
+            background-color: #ffffff;
+            transform: rotate(-90deg);
+            transform-origin: 0%;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            animation: second 60s linear infinite;
+        }
+
+        .circle {
+            position: relative;
+            top: -30px;
+            left: -10px;
+            width: 31px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clock">
+        <div class="sticks">
+            <div class="minute"></div>
+            <div class="second"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+</body>
+
+</html>

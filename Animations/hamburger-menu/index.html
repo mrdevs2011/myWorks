@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger manu</title>
+    <style>
+        .hamburger-menu {
+            position: absolute;
+            top: 320px;
+            left: 640px;
+        }
+
+        .line1 {
+            height: 10px;
+            width: 100px;
+            margin: 10px;
+            background-color: black;
+            border-radius: 50px;
+            transition: 0.5s;
+        }
+
+        .line2 {
+            height: 10px;
+            width: 100px;
+            margin: 10px;
+            background-color: black;
+            border-radius: 50px;
+            transition: 0.5s;
+        }
+
+        .line3 {
+            height: 10px;
+            width: 100px;
+            margin: 10px;
+            background-color: black;
+            border-radius: 50px;
+            transition: 0.5s;
+        }
+
+        .hamburger-menu:hover .line1 {
+            margin-bottom: 25px;
+            rotate: 45deg;
+            transform-origin: left;
+            background-color: red;
+        }
+
+        .hamburger-menu:hover .line2 {
+            background-color: white;
+        }
+
+        .hamburger-menu:hover .line3 {
+            margin-top: 25px;
+            rotate: -45deg;
+            transform-origin: left;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hamburger-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+@keyframes one {
+    0% {
+        left: 0;
+    }
+
+    30% {
+        rotate: -90deg;
+    }
+
+    70% {
+        rotate: -90deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes two {
+    0% {
+        left: 0;
+    }
+
+    30% {
+        rotate: 90deg;
+    }
+
+    70% {
+        rotate: 90deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes three {
+    0% {
+        left: 58px;
+    }
+
+    30% {
+        rotate: -90deg;
+        left: 58px;
+    }
+
+
+    70% {
+        rotate: -40deg;
+        left: 58px;
+    }
+
+    90% {
+        rotate: -40deg;
+        left: 58px;
+    }
+
+    100% {
+        left: 58px;
+        rotate: 0deg;
+    }
+}
+
+@keyframes four {
+    0% {
+        left: 0px;
+    }
+
+    30% {
+        rotate: 90deg;
+        left: 0px;
+    }
+
+
+    70% {
+        rotate: 40deg;
+        left: 0px;
+    }
+
+    90% {
+        rotate: 40deg;
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+        rotate: 0deg;
+    }
+}
+
+@keyframes h1 {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.loading {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.one {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    animation: one 5s linear infinite;
+    transform-origin: right;
+}
+
+.two {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    animation: two 5s linear infinite;
+    transform-origin: left;
+}
+
+.three {
+    position: absolute;
+    width: 142px;
+    height: 30px;
+    background-color: black;
+    animation: three 5s linear infinite;
+    transform-origin: right;
+}
+
+.four {
+    position: absolute;
+    width: 142px;
+    height: 30px;
+    background-color: black;
+    animation: four 5s linear infinite;
+    transform-origin: left;
+}
+
+.name {
+    position: absolute;
+    top: 300px;
+    animation: h1 5s linear infinite;
+}
+
+.loading .R {
+    position: absolute;
+    display: inline-block;
+    left: 300px;
+    height: 200px;
+}

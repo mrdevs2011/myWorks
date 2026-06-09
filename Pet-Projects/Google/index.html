@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google.com</title>
+    <style>
+        body {
+            background-color: rgb(102, 102, 102);
+        }
+
+        .container {
+            position: relative;
+            width: 1000px;
+            margin: 0;
+        }
+
+        .google {
+            margin-top: 200px;
+            margin-bottom: -50px;
+            margin-left: 74vh;
+            font-size: 70px;
+            font-weight: 500;
+            color: white;
+            letter-spacing: 7px;
+        }
+
+        .e {
+            display: inline-block;
+            rotate: -10deg;
+        }
+
+        input {
+            width: 450px;
+            height: 30px;
+            padding: 10px 10px 10px 50px;
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-left: 60vh;
+        }
+
+        .search-icon {
+            position: relative;
+            top: -40px;
+            left: 470px;
+            height: 30px;
+            width: 30px;
+            transition: 0.5s ease;
+        }
+
+        .circle {
+            position: absolute;
+            top: 4px;
+            left: 12px;
+            width: 10px;
+            height: 10px;
+            border: 2px solid rgb(158, 158, 158);
+            border-radius: 50%;
+            transition: 0.5s ease;
+        }
+
+        .stick {
+            position: absolute;
+            top: 18px;
+            left: 6px;
+            width: 10px;
+            height: 2px;
+            background-color: rgb(158, 158, 158);
+            rotate: -45deg;
+            transition: 0.5s ease;
+        }
+
+        .search-icon:hover {
+            rotate: -360deg;
+        }
+
+        .search-icon:hover .circle {
+            background-color: whitesmoke;
+            border: 2px solid black;
+        }
+
+        .search-icon:hover .stick {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="google">Googl<span class="e">e</span></h1>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="search-icon">
+            <div class="circle"></div>
+            <div class="stick"></div>
+        </div>
+    </div>
+</body>
+
+</html>

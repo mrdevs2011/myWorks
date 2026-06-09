@@ -1,0 +1,133 @@
+@keyframes creeper-whiteflash {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    71% {
+        opacity: 1;
+    }
+
+    72% {
+        opacity: 0;
+    }
+
+    73% {
+        opacity: 1;
+    }
+
+    74% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    76% {
+        opacity: 0;
+    }
+
+    77% {
+        opacity: 1;
+    }
+
+    78% {
+        opacity: 0;
+    }
+
+    79% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    81% {
+        opacity: 1;
+    }
+
+    82% {
+        opacity: 0;
+    }
+
+    83% {
+        opacity: 1;
+    }
+
+    84% {
+        opacity: 0;
+    }
+
+    85% {
+        opacity: 1;
+    }
+
+    86% {
+        opacity: 0;
+    }
+
+    87% {
+        opacity: 1;
+    }
+
+    88% {
+        opacity: 0;
+    }
+
+    89% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    91% {
+        opacity: 1;
+    }
+
+    92% {
+        opacity: 0;
+    }
+
+    93% {
+        opacity: 1;
+    }
+
+    94% {
+        opacity: 0;
+    }
+
+    95% {
+        opacity: 1;
+    }
+
+    96% {
+        opacity: 0;
+    }
+
+    97% {
+        opacity: 1;
+    }
+
+    98% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

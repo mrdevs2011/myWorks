@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProjects</title>
+    <link rel="shortcut icon" href="MR.png" type="image/x-icon">
+    <style>
+        @keyframes subname {
+            0% {
+                rotate: 0deg;
+                margin: 20px 50px 20px 50px;
+            }
+
+            35% {
+                opacity: 1;
+            }
+
+            40% {
+                rotate: 0deg;
+                margin: 20px 50px 20px 50px;
+                opacity: 0;
+            }
+
+            50% {
+                margin: 20px 350px 20px 350px;
+                rotate: 360deg;
+                opacity: 1;
+            }
+
+            60% {
+                rotate: 360deg;
+                margin: 20px 50px 20px 50px;
+            }
+
+            100% {
+                rotate: 360deg;
+            }
+
+        }
+
+        .app-name {
+            font-size: 30px;
+            margin: 5px 10px;
+        }
+
+        nav {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 55px;
+            width: 100%;
+            background-color: rgb(74, 240, 255);
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .all-projects {
+            margin-top: 100px;
+        }
+
+        .projects {
+            margin: 0 auto;
+            width: 900px;
+        }
+
+        .name {
+            font-weight: 500;
+            font-size: 40px;
+            letter-spacing: 10px;
+            text-align: center;
+        }
+
+        .subname {
+            text-align: center;
+            background-color: rgb(41, 215, 231);
+            padding: 10px 0 10px 0;
+            border-radius: 50px;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            letter-spacing: 5px;
+            transition: 0.5s;
+            animation: subname 10s linear infinite;
+            margin: 20px 50px 20px 50px;
+        }
+
+
+        .projects a {
+            background-color: rgb(126, 231, 230);
+            height: 15px;
+            margin: 10px 300px 0px 300px;
+            color: rgb(73, 73, 73);
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            padding: 10px 0px 20px;
+            border-radius: 50px;
+            transition: 0.5s;
+            overflow: hidden;
+        }
+
+        .subname:hover {
+            opacity: 0.5;
+            transform: translateY(-5px);
+        }
+
+        .projects a:hover {
+            transform: translateY(-5px);
+            margin: 10px 100px 0px 100px;
+        }
+
+        .bottom {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="app-name">MR</ul>
+    </nav>
+    <div class="projects">
+        <div class="all-projects">
+            <div class="name">ALL Projects</div>
+            <div class="subname">Projects</div>
+            <a target="_blank" href="./Projects/SUNNAH.UZ/">Sunnah.uz</a>
+            <a target="_blank" href="./Projects/UTILITY/">Devs-Utility</a>
+
+            <div class="subname">Pet-Projects</div>
+            <a target="_blank" href="./Pet-Projects/clock/">Simple Clock</a>
+            <a target="_blank" href="./Pet-Projects/creeper/">Minecraft-Creeper</a>
+
+            <div class="subname">Cartoons</div>
+            <a target="_blank" href="./Cartoons/CAR/">Car</a>
+            <a target="_blank" href="./Cartoons/Mosque/">Mosque</a>
+            <a target="_blank" href="./Cartoons/milknak/">milknak</a>
+
+            <div class="subname">Animations</div>
+            <a target="_blank" href="./Animations/loading-cards/">Loading-Cards</a>
+            <a target="_blank" href="./Animations/Loading/">Loading</a>
+            <a target="_blank" href="./Animations/loading-settings/">Loading-Settings</a>
+            <a target="_blank" href="./Animations/M/">Letter "M"</a>
+            <a target="_blank" href="./Animations/hamburger-menu/">Hamburger-Menu</a>
+            <a target="_blank" href="./Animations/trash/">Trash</a>
+        </div>
+        <div class="bottom"></div>
+    </div>
+</body>
+
+</html>
